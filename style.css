@@ -81,7 +81,7 @@ body {
   
   a {
     text-decoration: none;
-    color: #007bff;
+    color: #000000;
   }
   
   a:hover {
@@ -98,11 +98,12 @@ body {
     background-color: #007bff;
     color: #fff;
     text-align: center;
+    margin-top: 5%;
    
   }
   
   .footer-container {
     max-width: 800px;
     margin: 0 auto;
-    margin-top: 60%;
+    margin-top: 5%;
   }
