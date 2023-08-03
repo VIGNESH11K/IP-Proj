@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Approved and Rejected Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <!-- Add your website logo here -->
+      <h1>Project Monitoring</h1>
+      <!-- Add navigation menu here -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h2>Approved and Rejected Projects</h2>
+    <div class="filters">
+      <!-- Add sorting and filtering options here -->
+      <label for="sort">Sort by:</label>
+      <select id="sort">
+        <option value="date">Date</option>
+        <option value="name">Project Name</option>
+      </select>
+      <label for="filter">Filter by status:</label>
+      <select id="filter">
+        <option value="all">All</option>
+        <option value="approved">Approved</option>
+        <option value="rejected">Rejected</option>
+      </select>
+      <!-- Add search bar here -->
+      <input type="text" id="search" placeholder="Search projects...">
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Status</th>
+          <th>Date</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Add rows of projects dynamically using backend data -->
+        <tr>
+          <td>Project 1</td>
+          <td class="approved">Approved</td>
+          <td>2023-08-01</td>
+          <td><a href="#">View Details</a></td>
+        </tr>
+        <tr>
+          <td>Project 2</td>
+          <td class="rejected">Rejected</td>
+          <td>2023-08-02</td>
+          <td><a href="#">View Details</a></td>
+        </tr>
+
+        <tr>
+            <td>Project 2</td>
+            <td class="rejected">Rejected</td>
+            <td>2023-08-02</td>
+            <td><a href="#">View Details</a></td>
+          </tr>
+
+          <tr>
+            <td>Project 3</td>
+            <td class="rejected">Rejected</td>
+            <td>2023-08-02</td>
+            <td><a href="#">View Details</a></td>
+          </tr>
+
+          <tr>
+            <td>Project 4</td>
+            <td class="rejected">Rejected</td>
+            <td>2023-08-02</td>
+            <td><a href="#">View Details</a></td>
+          </tr>
+
+          <tr>
+            <td>Project 5</td>
+            <td class="rejected">Rejected</td>
+            <td>2023-08-02</td>
+            <td><a href="#">View Details</a></td>
+          </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+    <!-- Add pagination here -->
+    <!-- Add message for empty state -->
+    <p class="empty-state"></p>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <!-- Add footer content here -->
+      <p>&copy; 2023 Project Monitoring. All rights reserved.</p> <br>Desinged and developed by Vignesh  RK and Girish
+      <p>Contact: frcrce.ac.in</p>
+    </div>
+  </footer>
+</body>
+</html>
